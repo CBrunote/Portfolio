@@ -1,0 +1,135 @@
+:root
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+*/
+/*section {
+  display: block;
+}
+*/
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* header {
+    display: flex;
+    padding: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #404547;
+    color: #ffffff;
+    width: 96%;
+} */
+
+header{
+  display:flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #404547;
+  color: #ffffff;
+}
+
+.header-flex{
+  display: flex;
+  width: 30%;
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+.logo {
+    width: 10%;
+    border-radius: 50%;
+}
+
+nav{
+  width: 30%;
+  margin: 5% 0;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    list-style-type: none;
+}
+
+/* ul {
+    list-style-type: none;
+} */
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+nav li a {
+    color: #ffffff;;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #9c9cee;
+}
+
+footer {
+    margin: 1.5rem;
+    text-align: center;
+    background-color: #404547;
+    color: #ffffff;
+  }
+
+/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+
+ /* media query for larger screens */
+ @media screen and (max-width: 992px) {
+    header {
+      width: 100%;
+    }
+  
+    .card-column {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    /* on tablets, set columns to only be 50% of the width and not grow */
+    .card-column {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    /* select the last child to grow to full width if it has space to grow */
+    .card-column:last-child {
+      flex-grow: 1;
+    }
+  }
+  
+  /* media query for larger screens */
+  @media screen and (min-width: 992px) {
+    header {
+      width: 100%;
+    }
+  
+    .card-column {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
+  
