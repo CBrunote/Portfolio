@@ -12,8 +12,7 @@ My portfolio webpage contains the following:
 
 ## Demo of Application
 
-![portfolio demo](assets\images\portfolio-demo.gif)
-
+ <img src="assets\images\portfolio-demo.gif">
 
  <img src="assets\images\portfollio-screenshot.png" width=25%>
 
