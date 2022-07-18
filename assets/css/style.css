@@ -259,7 +259,7 @@ footer p{
   }
 
 /* Media Query to stylize for mobile phones. */
-  @media screen and (max-width: 390px) {
+  @media screen and (max-width: 480px) {
     * {
       align-items: center;
       margin:auto;
