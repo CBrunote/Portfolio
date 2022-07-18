@@ -14,6 +14,9 @@ My portfolio webpage contains the following:
 
 ![portfolio demo](assets\images\portfolio-demo.gif)
 
+
+ <img src="assets\images\portfollio-screenshot.png" width=25%>
+
 ## Link to Application
 
 Click the link below to visit the deployed application
