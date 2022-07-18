@@ -7,26 +7,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-  <link rel="icon" type="image/x-icon" href="assets\images\CBrunote_White.jpg">
+  <link rel="icon" type="image/x-icon" href="./assets\images\CBrunote_White.jpg">
 </head>
 
 <body>
   <header id="Home">
     <div class="header-flex">
         <div>
-            <img class="logo" src="assets/images/CBrunote_White.jpg" alt="CBrunote Logo"/>
+            <img class="logo" src="./assets/images/CBrunote_White.jpg" alt="CBrunote Logo"/>
         </div>
         <div class="header-title">
             <h1>Christian Bruno</h1> 
             <h2>Full Stack Developer</h2>
         </div>
     </div>
-    <nav>
+    <nav class="headerNav">
         <ul>
             <li><a href="#Home">Home</a></li>
-            <li><a href="#About-Me">About Me</a></li>
+            <li><a href="#About">About</a></li>
             <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact-Me">Contact Me</a></li>
+            <li><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
   </header>
@@ -34,15 +34,17 @@
   <main>
     <section>
         <div class="sectionHeadings">
-            <h2 id="About-Me">About Me</h2>
+            <h2 id="About">About</h2>
         </div>
-        <article>
-            <div>
-                <img class="headshot" src="assets\images\IMG_0273.jpg" alt="Headshot of Christian Bruno"/>
-            </div>
-            <div>
+        <article id="aboutSection">
+                <img class="headshot" src="./assets\images\IMG_0273.jpg" alt="Headshot of Christian Bruno"/>
+            <div class="aboutP">
                 <p>
-                    For the last 5 years, I have been working in the tech industry on the client-side in technical application support. In this role, I would work closely with our development team and  
+                    Hi, my name is Christian Bruno and I am an aspiring Software Developer.
+                    For the last 5 years, I have been working in the tech industry on the client-side in technical application support. In this role, I would work closely with our development team and always wondered how I could get to that side of business. I decided to take the plunge and dive head first into learning to code by joining the Georgia Tech Coding Bootcamp and fulfilling my dream of becoming a developer.
+                    <br>
+                    <br>
+                    I'm excited to learn the world of software development over the next 6 months, and to grow my skills in the field with each project we complete. 
                 </p>
             </div> 
         </article>
@@ -51,20 +53,65 @@
         <div class="sectionHeadings">
             <h2 id="Projects">Projects</h2>
         </div>
-        <article>
-            <p>
-                Test text
-            </p>
+        <article class="projects">
+            <a class="project-one" href="https://cbrunote.github.io/01-Code-Refactor/">
+                <figure>
+                    <img src="./assets\images\Horiseon.jpg" alt="screenshot of Code Refactor Project">
+                    <div class="project-titles">
+                        <h3>Code Refactor</h3>
+                        <h4>HTML/CSS</h4>
+                    </div>
+                </figure>
+            </a>
+            <section class="project-rows">
+                <a href="#">
+                    <figure>
+                        <img src="./assets\images\purple-mountains.jpg" alt="Project 2 Placeholder image">
+                        <div class="project-titles">
+                            <h3>Project 2</h3>
+                        </div>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img src="./assets\images\purple-mountains.jpg" alt="Project 3 Placeholder image">
+                        <div class="project-titles">
+                            <h3>Project 3</h3>
+                        </div>
+                    </figure>
+                </a>
+            </section>
+            <section class="project-rows">
+                <a href="#">
+                    <figure>
+                        <img src="./assets\images\purple-mountains.jpg" alt="Project 4 Placeholder image">
+                        <div class="project-titles">
+                            <h3>Project 4</h3>
+                        </div>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img src="./assets\images\purple-mountains.jpg" alt="Project 5 Placeholder image">
+                        <div class="project-titles">
+                            <h3>Project 5</h3>
+                        </div>
+                    </figure>
+                </a>
+            </section>
         </article>
     </section>
     <section>
         <div class="sectionHeadings">
-            <h2 id="Contact-Me">Contact Me</h2>
+            <h2 id="Contact">Contact</h2>
         </div>
         <article>
-            <p>
-                Test text
-            </p>
+            <nav class="contactNav">
+                <ul>
+                  <li><a href="mailto:christian.bruno1995@gmail.com" target="_blank">Email</a></li>
+                  <li><a href="https://github.com/CBrunote" target="_blank">GitHub</a></li>
+                  <li><a href="https://www.linkedin.com/in/christian-bruno-5622b7b2/" target="_blank">LinkedIn</a></li>
+            </nav>
         </article>
     </section>
   </main>
