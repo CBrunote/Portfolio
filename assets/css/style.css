@@ -158,6 +158,7 @@ section p {
 
 .projects figure{
   border: 5px solid grey;
+  background-size: 300px
 }
 
 .projects figure:hover img{
@@ -176,7 +177,7 @@ section p {
 }
 
 .project-rows img{
-  width:100%;
+  width: 100%;
   height: auto;
 }
 
